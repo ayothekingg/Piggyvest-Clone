@@ -33,6 +33,8 @@ body{
    padding-left: 20px;
   margin-bottom:10px;
   margin-top: 10px;
+  width: 100%;
+
 }
 
 .btn-bar{
@@ -156,7 +158,7 @@ p{
     bottom: 0;
     width: 100%;
     max-width: 362px;
-   
+
 }
 
 .card-1{
@@ -624,8 +626,14 @@ i{
 /* Media Queries */
 
 @media only screen and (max-width:768px){
+.hamburger{
+    display: block;
+}
 
-.nav-bar.responsive {
+.nav-section{
+    width: 100%;
+}
+    .nav-bar.responsive {
    position: relative; 
    display: block;
 }
@@ -782,17 +790,20 @@ text-align: center;
 }
 
 .nav-bar{
-    justify-content: space-between;
+  display: block;
+position: relative;
 }
 
  .hamburger{
 display: block;
-margin-top: 12px;
+top: 12px;
+right: 10px;
+position: absolute;
+text-align: right;
 }
 
 .fa-solid{
     font-size: 35px;
-    margin-left: -55px;
     cursor: pointer;
 }
 
