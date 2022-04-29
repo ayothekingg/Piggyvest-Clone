@@ -152,6 +152,7 @@ p{
     position: relative;
     top: 30px;
     bottom: 0;
+   
 }
 
 .card-1{
@@ -214,10 +215,11 @@ flex: 0 0 66.7%;
 
 .container-3{
  display: grid;
-width: 1165px;
-  margin-top: 150px;
+max-width: 1165px;
+ width: 100%;
+margin-top: 150px;
   gap: 40px;
-  margin-left: 50px;
+ margin-left: 10px;
   grid-template-columns: repeat(3, 1fr); 
 }
 
@@ -320,17 +322,20 @@ margin-top: 25px;
 .container-4{
     margin-top: 120px;
     max-width: 1165px;
+    width: 100%;
 }
 
 .content-left-4{
     flex: 0 0 38%;
     display: flex;
  justify-content: flex-end;
+ width: 100%;
    }
    
 
 .content-right-4{
     flex: 0 0 62%;
+  width: 100%;
     background-color: #f9f9f9;
 }
 
@@ -338,20 +343,23 @@ margin-top: 25px;
     max-width: 530px;
     margin-top: 100px;
     margin-left: 50px;
+   
 }
 
 .inner-content-4 > h2{
     font-size: 51px;
-    line-height: 64.1px
+    line-height: 64.1px;
+   
 }
 
 .inner-content-4 > col{
     max-width: 450px;
+    width: 100%;
 }
 
 .text{
     max-width: 450px;
-    
+    width: 100%;
 }
 .col{
     color: #7913e5;
@@ -363,6 +371,7 @@ margin-top: 25px;
     border-radius: 40px;
     max-width: 180px;
     text-align: center;
+    width: 100%;
 }
 
 .content-left-5{
@@ -692,6 +701,10 @@ margin-left: auto !important;
 text-align: center;
 }
    
+.content-right-1{
+    left: 0;
+}
+
 .container-2{
  text-align: center;
  display: block;
@@ -710,8 +723,11 @@ text-align: center;
 .container-3{
      display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    justify-content: center; 
+    width: 100%;
+    gap: 0px;
+    gap: 30px;
+    
+   
 }
 
 .content-bl-1{
@@ -723,9 +739,14 @@ text-align: center;
   display: block;
 }
 
+.inner-content-4{
+    
+}
+
 .content-left-4{
     justify-content: center;
 }
+
 
 .container-6{
  display: flex;
