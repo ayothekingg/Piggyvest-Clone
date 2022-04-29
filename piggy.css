@@ -136,6 +136,7 @@ p{
    top: 30px;
    flex: 0 0 46%;
    display: flex;
+   width: 100%;
 }
 
 .content-2{
@@ -146,12 +147,15 @@ p{
  .image-2{
     position: absolute;
     left: 40px;
+    width: 100%;
 }
 
 .image-1{
     position: relative;
     top: 30px;
     bottom: 0;
+    width: 100%;
+    max-width: 362px;
    
 }
 
@@ -242,7 +246,6 @@ margin-top: 150px;
 .save-btn{
     background-color: #0c1825; 
     color: white;
-   
     border: none;
     
 }
@@ -726,7 +729,7 @@ text-align: center;
     width: 100%;
     gap: 0px;
     gap: 30px;
-    
+    justify-content: center;
    
 }
 
