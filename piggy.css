@@ -650,6 +650,8 @@ i{
 
 .nav-bar.responsive .hamburger {
    position: absolute; 
+   top: 2%;
+
   
  
 }
@@ -795,8 +797,8 @@ position: relative;
 
  .hamburger{
 display: block;
-top: 12px;
-right: 35px;
+top: 20%;
+right: 8%;
 position: absolute;
 text-align: right;
 }
