@@ -160,7 +160,7 @@ p{
     bottom: 0;
     width: 100%;
     max-width: 362px;
-    left: %;
+ 
 
 }
 
@@ -177,7 +177,8 @@ left: -10%;
     height: 115px;
     position: absolute;
     top: 80%;
-    left: 50%;
+    right: -20%;
+   
 }
 
 .btn-get{
@@ -633,7 +634,9 @@ i{
 /* Media Queries */
 
 @media only screen and (max-width:768px){
-
+.card-2{
+    right: -5%;
+}
 
     .hamburger{
     display: block;
